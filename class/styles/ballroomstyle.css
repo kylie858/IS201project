@@ -1,0 +1,92 @@
+body{
+    background-color:blanchedalmond;
+    color:rgb(47, 47, 47);
+    font-famliy: 'Georgia', 'Times New Roman', 'Times', 'serif';
+}
+
+h1{
+    color: white;
+    font-family: 'papyrus', 'Hanuman', 'georgia', 'times new roman';
+    font-style: underline;
+}
+h2,h3,h4, h5, h6{
+    color:cadetblue;
+    font-family: 'papyrus', 'Hanuman', 'georgia', 'times new roman';
+    font-style: underline;
+}
+.main-content{
+    margin-left: 220px;
+    padding: 20px;
+}
+.sidebar{
+    background-color: rgb(41, 104, 106);
+    width: 200px;
+    height: 100%;
+    left:0;
+    padding: 15px;
+    position: fixed;
+}
+.sidebar ul{
+   list-style: none; 
+   padding: 0;
+}
+.sidebar ul li{
+    margin: 15px;
+}
+.sidebar ul li a{
+    color: white;
+}
+.sidebar ul li a:hover{
+    text-decoration: underline;
+}
+.navbar{
+    padding: 10px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+.navbar{
+    color:white;
+}
+.navbar a:hover{
+    background-color: white;
+    border-radius:5px;
+}
+/* Center the YouTube video */
+.video {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Styled buttons */
+.styled-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 0;
+    background-color: cadetblue;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+/* Hover effect for buttons */
+.styled-button:hover {
+    background-color: #4f869a; /* Slightly darker shade of cadet blue */
+    color: white;
+}
+.tableau-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
